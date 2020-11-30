@@ -6,6 +6,7 @@
   "scripts": {
     "ts-node": "ts-node",
     "dev": "ts-node-dev index.ts",
+    "lint" : "eslint --ext .ts",
     "multiply": "ts-node multiplier.ts",
     "calculate": "ts-node calc.ts",
     "test": "echo \"Error: no test specified\" && exit 1"

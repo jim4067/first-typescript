@@ -21,3 +21,5 @@ try {
 } catch (err) {
     console.log("Something went wrong", err.message)
 }
+
+export { calculator };
