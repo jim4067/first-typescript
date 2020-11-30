@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
       "target": "ES2020",
-      // "strict": true,
-      "noUnusedLocals": false,
+      "strict": true,
+      "noUnusedLocals": true,
       "noUnusedParameters": true,
+      "noImplicitAny": false,
       "noImplicitReturns": true,
       "noFallthroughCasesInSwitch": true,
       "esModuleInterop": true
